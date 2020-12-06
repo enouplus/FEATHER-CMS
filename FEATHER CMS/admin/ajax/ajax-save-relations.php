@@ -1,0 +1,9 @@
+<?php
+require_once("../functions/post-tag-functions.php");
+is_admin_ajax();
+save_relations
+(
+    GVPV("post_id"),
+    GVPV("tag_ids")
+);
+?>

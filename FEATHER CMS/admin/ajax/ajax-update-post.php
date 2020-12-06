@@ -1,0 +1,15 @@
+<?php
+require_once("../functions/post-functions.php");
+is_admin_ajax();
+update_post
+(
+    GVPV("post_id"),
+    GVPV("post_slug"),
+    GVPV("post_status"),
+    GVPV("post_date"),
+    GVPV("post_title"),
+    GVPV("post_desc"),
+    GVPV("post_content"),
+    GVPV("post_meta")
+);
+?>

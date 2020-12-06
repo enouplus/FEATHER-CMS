@@ -1,0 +1,2 @@
+<input value="<?php echo $user = $post_meta["sd"] ?? "";  ?>" type="text" name="sd" class="form-control mb-2 r0" placeholder="enter start date">
+<input value="<?php echo $user = $post_meta["ld"] ?? "";  ?>" type="text" name="ld" class="form-control mb-2 r0" placeholder="enter last date">

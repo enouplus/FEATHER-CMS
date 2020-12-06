@@ -1,0 +1,10 @@
+<?php
+require_once("../functions/tag-functions.php");
+is_admin_ajax();
+update_tag
+(
+    GVPV("tag_id"),
+    GVPV("tag_slug"),
+    GVPV("tag_name")
+);
+?>
